@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Simple Custom Login
+ * Plugin Name:       Tj Simple Custom Login
  * Plugin URI:        https://github.com/tajidyakub/custom-login-wp
  * Description:       A Simple WordPress Custom Login plugin.
  * Version:           1.0.0
