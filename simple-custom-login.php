@@ -57,7 +57,11 @@ function scl_login_logo()
 function scl_login_logo_url_title() {
     return 'Your Web Title';
 }
+function scl_login_logo_url() {
+    return home_url();
+}
 
 add_action( 'login_enqueue_scripts', 'scl_login_logo' );
 add_filter( 'login_headertitle', 'scl_login_logo_url_title' );
+add_filter( 'login_headerurl', 'scl_login_logo_url' );
 
